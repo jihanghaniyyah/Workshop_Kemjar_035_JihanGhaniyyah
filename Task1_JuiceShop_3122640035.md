@@ -126,12 +126,12 @@ Buka http://localhost:3000// pada web browser dan OWASP Juice Shop sukses ter-in
 <hr>
 
 <h3>Referensi</h3>
-[1] “OWASP Foundation, the Open Source Foundation for Application Security | OWASP Foundation.” https://owasp.org/ (accessed Feb. 22, 2023).
-[2] “Tentang OWASP - OWASP Top 10:2021.” https://owasp.org/Top10/id/A00-about-owasp/ (accessed Feb. 22, 2023).
-[3] “Pengenalan - OWASP Top 10:2021.” https://owasp.org/Top10/id/A00_2021_Introduction/ (accessed Feb. 22, 2023).
-[4] “Apa itu Top 10 OWASP dan Bagaimana Cara Kerjanya? | Mandreel.com.” https://www.mandreel.com/indonesia/owasp/ (accessed Feb. 22, 2023).
-[5] “Kerentanan IDOR, SQL Injection dan Broken Authentication pada aplikasi OWASP Juice Shop.” https://securxcess.com/blog/kerentanan-idor-sql-injection-dan-broken-authentication-pada-aplikasi-owasp-juice-shop-58 (accessed Feb. 21, 2023).
-[6] “OWASP Juice Shop | OWASP Foundation.” https://owasp.org/www-project-juice-shop/ (accessed Feb. 22, 2023).
-[7] “GitHub - juice-shop/juice-shop: OWASP Juice Shop: Probably the most modern and sophisticated insecure web application.” https://github.com/juice-shop/juice-shop (accessed Feb. 22, 2023).
-[8] “Architecture overview · Pwning OWASP Juice Shop.” https://pwning.owasp-juice.shop/introduction/architecture.html (accessed Feb. 22, 2023).
-[9] “Install OWASP Juice Shop on Kali Linux [Step-by-Step] | GoLinuxCloud.” https://www.golinuxcloud.com/install-owasp-juice-shop-kali-linux/ (accessed Feb. 21, 2023)
+[1] “OWASP Foundation, the Open Source Foundation for Application Security | OWASP Foundation.” https://owasp.org/ (accessed Feb. 22, 2023).<br>
+[2] “Tentang OWASP - OWASP Top 10:2021.” https://owasp.org/Top10/id/A00-about-owasp/ (accessed Feb. 22, 2023).<br>
+[3] “Pengenalan - OWASP Top 10:2021.” https://owasp.org/Top10/id/A00_2021_Introduction/ (accessed Feb. 22, 2023).<br>
+[4] “Apa itu Top 10 OWASP dan Bagaimana Cara Kerjanya? | Mandreel.com.” https://www.mandreel.com/indonesia/owasp/ (accessed Feb. 22, 2023).<br>
+[5] “Kerentanan IDOR, SQL Injection dan Broken Authentication pada aplikasi OWASP Juice Shop.” https://securxcess.com/blog/kerentanan-idor-sql-injection-dan-broken-authentication-pada-aplikasi-owasp-juice-shop-58 (accessed Feb. 21, 2023).<br>
+[6] “OWASP Juice Shop | OWASP Foundation.” https://owasp.org/www-project-juice-shop/ (accessed Feb. 22, 2023).<br>
+[7] “GitHub - juice-shop/juice-shop: OWASP Juice Shop: Probably the most modern and sophisticated insecure web application.” https://github.com/juice-shop/juice-shop (accessed Feb. 22, 2023).<br>
+[8] “Architecture overview · Pwning OWASP Juice Shop.” https://pwning.owasp-juice.shop/introduction/architecture.html (accessed Feb. 22, 2023).<br>
+[9] “Install OWASP Juice Shop on Kali Linux [Step-by-Step] | GoLinuxCloud.” https://www.golinuxcloud.com/install-owasp-juice-shop-kali-linux/ (accessed Feb. 21, 2023)<br>
