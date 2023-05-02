@@ -5,7 +5,7 @@
     "OWASP TOP 10 DAN JUICE SHOP"
 </h3><br>
 
-<img src="Images/Logo_PENS.png" width="300"><br>
+<img src="../Images/Logo_PENS.png" width="300"><br>
 
 <p>Dosen Pengampu:<br>
 Ferry Astika Saputra, S.T., M.Sc.</p> <br>
