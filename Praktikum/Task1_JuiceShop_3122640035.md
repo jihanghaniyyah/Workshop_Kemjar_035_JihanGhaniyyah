@@ -34,7 +34,7 @@ Jihan Ghaniyyah Putri Arrochim (3122640035)</p><br>
 OWASP atau Open Web Application Security Project merupakan sebuah komunitas non-profit yang bekerja untuk meningkatkan keamanan pada suatu software [1]. OWASP tidak berafiliasi dengan perusahaan teknologi manapun, meskipun OWASP berperan penting terhadap perkembangan teknologi sekuritas [2]. OWASP memiliki banyak software projectterbuka yang dipimpin oleh komunitas, ratusan cabang di penjuru dunia, puluhan ribu anggota, dan konferensi pendidikan juga pelatihan terbuka. Yayasan OWASP adalah pusat bagi developer dah expert untuk mengamankan website [1]. <br><br>
 OWASP 10 atau OWASP Top 10 adalah 10 panduan yang dapat digunakan oleh programmer dan security team aplikasi website untuk mengatasi kerentanan. OWASP 10 dapat mengidentifikasi berbagai macam risiko keamanan yang sering terjadi dan harus segera diatasi oleh aplikasi website. Selama bertahun-tahun, OWASP 10 beralih untuk mengatasi berbagi tren serangan siber. Berikut adalah perubahan OWASP 10 dari tahun 2017 untuk 2021 [3-4]. <br>
 
-<a href="https://owasp.org/Top10/id/"><img src='Images/Task 1 - Apnic Module 1/owasp10.png' width=800></a><br>
+<a href="https://owasp.org/Top10/id/"><img src='../Images/Task 1 - Apnic Module 1/owasp10.png' width=800></a><br>
 
 -   **A01:2021-Broken Access Control (Kelemahan Access Control)**<br>
     Naik dari posisi kelima; 34 CWE (Common Weakness Enumeration) yang dipetakan ke Broken Access Control memiliki lebih banyak kemunculan dalam aplikasi dariapda kategori lainnya. Broken Access Control memungkinkan entri yang tidak sah yang dapat mengakibatkan kerentanan data dan file yang bersifat sensitif. Kontrol akses yang lemah terkait manajemen kredensial dapat diatasi dengan metode coding yang unik dan beberapa tindakan khusus seperti mematikan akun admin dan two-factor authentication.<br>
@@ -64,14 +64,14 @@ OWASP 10 atau OWASP Top 10 adalah 10 panduan yang dapat digunakan oleh programme
 OWASP Juice Shop adalah aplikasi vulnerable website yang dikelola oleh OWASP. Aplikasi ini digunakan sebagai media pembelajaran terhadap kerentanan OWASP Top 10 [5].OWASP Juice Shop dibuat dengan Node.js, Express, dan Angular [6]. Aplikasi Juice Shop merupakan aplikasi website yang mencakup sejumlah besar kerentanan dari OWASP Top 10 di mana pengguna dapat meretas kerentanan tersebut [7]. Progres peretasan yang dilakukan dapat dilihat melalui score board. <br><br>
 Score board dapat diketahui dengan cara mencari kata ‘score’ pada source tree sehingga dapat diketahui bahwa ‘score’ berada di file main.js. Pada file main.js, terdapat path score board untuk menuju halaman score board seperti pada gambar di bawah ini. <br>
 
-<img src='Images/Task 1 - Apnic Module 1/score-board.png' width=600> <br>
+<img src='../Images/Task 1 - Apnic Module 1/score-board.png' width=600> <br>
 
 Berikut adalah halaman score board yang juga salah satu challenge pada aplikasi Juice Shop.
 
-<img src='Images/Task 1 - Apnic Module 1/score-board2.png' width=600> <br>
+<img src='../Images/Task 1 - Apnic Module 1/score-board2.png' width=600> <br>
 
 <a href='https://owasp.org/www-project-juice-shop/'>
-<img src='Images/Task 1 - Apnic Module 1/juiceshop.png' width=600> </a><br>
+<img src='../Images/Task 1 - Apnic Module 1/juiceshop.png' width=600> </a><br>
 
 OWASP Juice Shop merupakan sebuah aplikasi website yang diimplementasi melalui JavaScript dan TypeScript. Pada bagian frontend digunakan framework Angular untuk membuat Single Page Application. Pada bagian layout user interface digunakan Material Design menggunakan komponen Angular Material. <br><br>
 Bahasa pemrograman JavaScript juga digunakan pada bagian backend melalui Express yang dihosting di server Node.js untuk mengirimkan kode client-side ke browser. Express juga berperan dalam pembuatan fungsi backend melalui RESTful API. SQLite dipilih sebagai database karena SQLite merupakan database yang ringan karena berbasis file. Sebagai penyimpanan tambahan, MarsDB juga ditambahkan karena banyak digunakan dan kompatibel dengan Sebagian besar operasi query. <br><br>
@@ -81,7 +81,7 @@ Notifikasi push juga dapat terlihat saat challenge berhasil dilakukan yang mana 
 
 <h3 align="center">INSTALASI OWASP JUICE SHOP</h3><br>
 
-<img src='Images/Task 1 - Apnic Module 1/1.png' width=600> </a><br>
+<img src='../Images/Task 1 - Apnic Module 1/1.png' width=600> </a><br>
 
 Di sini penulis menggunakan OS Kali Linux versi 2022.1 dengan Oracle VM VirtualBox versi 6.1.18 sebagai virtual machine. Berikut adalah tahapan instalasi OWASP Juice Shop [9].
 
@@ -89,40 +89,40 @@ Di sini penulis menggunakan OS Kali Linux versi 2022.1 dengan Oracle VM VirtualB
 
 Unduh OWASP Juice Shop versi terbaru dari halaman official <a href='https://github.com/juice-shop/juice-shop/releases/tag/v14.0.1'>GitHub</a>. Saat ini digunakan versi 14.0.1. Kemudian digunakan perintah **wget** untuk mengunduh paket OWASP Juice Shop. <br>
 
-<img src='Images/Task 1 - Apnic Module 1/2.png' width=600>
+<img src='../Images/Task 1 - Apnic Module 1/2.png' width=600>
 
 Kemudian diperlukan perintah **tar** untuk extract file yang telah diunduh.<br>
 
-<img src='Images/Task 1 - Apnic Module 1/3.png' width=300><br>
+<img src='../Images/Task 1 - Apnic Module 1/3.png' width=300><br>
 
 **Tahap 2. Install NodeJS dan NPM**<br>
 Proses mengunduh NodeJS diperlukan perhatian khusus yaitu sebaiknya mengunduh versi NodeJS yang mirip dengan versi aplikasi Juice Shop. Aplikasi Juice Shop yang telah terunduh adalah versi 14.0.1, maka dari itu diperlukan NodeJS versi 14. <br>
 
 Unduh NodeJS dari halaman resmi dan unduh NodeJS setup untuk Linux. Gunakan perintah **wget** untuk mengunduh. <br>
 
-<img src='Images/Task 1 - Apnic Module 1/4.png' width=600>
+<img src='../Images/Task 1 - Apnic Module 1/4.png' width=600>
 
 Kemudian diperlukan perintah **tar** untuk extract file yang telah diunduh.
 
-<img src='Images/Task 1 - Apnic Module 1/5.png' width=600>
+<img src='../Images/Task 1 - Apnic Module 1/5.png' width=600>
 
 Kemudian gunakan perintah **npm --version** dan **node --version** untuk melihat versi NPM dan Node yang telah terunduh.
 
-<img src='Images/Task 1 - Apnic Module 1/6.png' width=300><br>
+<img src='../Images/Task 1 - Apnic Module 1/6.png' width=300><br>
 
 **Tahap 3. Install Node Dependencies**<br>
 
 Setelah NPM dan Node berhasil terunduh, masuk ke direktori OWASP Juice Shop yang telah diunduh dengan menggunakan perintah **cd**. Kemudian gunakan perintah **npm install** untuk mengunduh dependency dari NodeJS.
 
-<img src='Images/Task 1 - Apnic Module 1/7.png' width=600>
+<img src='../Images/Task 1 - Apnic Module 1/7.png' width=600>
 
 Gunakan perintah **npm start** untuk memulai web app. Kemudian akan terdapat responsebahwa website berada di **port 3000**
 
-<img src='Images/Task 1 - Apnic Module 1/8.png' width=600>
+<img src='../Images/Task 1 - Apnic Module 1/8.png' width=600>
 
 Buka http://localhost:3000// pada web browser dan OWASP Juice Shop sukses ter-install.
 
-<img src='Images/Task 1 - Apnic Module 1/9.png' width=600>
+<img src='../Images/Task 1 - Apnic Module 1/9.png' width=600>
 
 <hr>
 
