@@ -33,6 +33,17 @@ Jihan Ghaniyyah Putri Arrochim (3122640035)</p><br>
 
 **A. Mengambil Data dari Database Menggunakan SQLMap**
 
+1. Dapatkan IP address VDI untuk menyerang
+   <img src="../Images/Task 9 - A06 Vulnerable Component/18.png">
+2. Buka IP address pada browser
+   <img src="../Images/Task 9 - A06 Vulnerable Component/15.jpeg">
+3. Mencari halaman yang memerlukan ID, seperti halaman detail artikel. Kemudian masukkan url 192.168.0.9/index.php?tampil=artikel_detail&id=85. Setelahnya jalankan SQLMap dengan perintah sqlmap -u "http://192.168.0.9/index.php?tampil=artikel_detail&id=85" --dbs
+   <img src="../Images/Task 9 - A06 Vulnerable Component/16.png"> <br>
+   Database berhasil ditemukan
+4. Melihat tabel yang ada pada database
+   <img src="../Images/Task 9 - A06 Vulnerable Component/17.png"> <br>
+   Database vulnweb memiliki 7 tabel, yaitu user, artikel, galeri, halaman, komentar, menu, dan pesan
+
 **B. Mencari Tahu Password Root Menggunakan NMap**
 
 1. Masuk ke root dan berikan perintah ifconfig untuk mengetahui IP address
