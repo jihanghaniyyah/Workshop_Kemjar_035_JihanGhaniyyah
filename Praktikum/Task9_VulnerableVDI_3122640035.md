@@ -44,7 +44,7 @@ Jihan Ghaniyyah Putri Arrochim (3122640035)</p><br>
    <img src="../Images/Task 9 - A06 Vulnerable Component/17.png"> <br>
    Database vulnweb memiliki 7 tabel, yaitu user, artikel, galeri, halaman, komentar, menu, dan pesan
 5. Menuju tabel user untuk mengetahui username dan password dengan script<br>
-   sqlmap -u "http://192.168.30.148/?tampil=halaman&id=78" -C id_user, password, username --dump <br>
+   sqlmap -u "http://192.168.1.90/?tampil=halaman&id=78" -C id_user, password, username --dump <br>
    <img src="../Images/Task 9 - A06 Vulnerable Component/67.png" width="300"> <br>
    Dapat diketahui bahwa username adalah **vulnweb** dan password juga **vulnweb**
 6. Buka browser, tuju halaman "http://192.168.1.90/admin/index.php" untuk Login <br>
@@ -52,8 +52,6 @@ Jihan Ghaniyyah Putri Arrochim (3122640035)</p><br>
    Masukkan username dan password
 7. Berhasil masuk ke halaman Admin <br>
    <img src="../Images/Task 9 - A06 Vulnerable Component/69.jpeg" width="600"> <br>
-8. Pada halaman Admin terdapat beberapa menu di bagian navigation bar. Salah satunya adalah menu Daftar Halaman <br>
-   <img src="../Images/Task 9 - A06 Vulnerable Component/70.jpeg" width="600"> <br>
 
 **B. Mencari Tahu Password Root Menggunakan NMap**
 
